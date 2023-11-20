@@ -423,7 +423,9 @@ a:focus {
   height: 20px;
   background-color: #0a97b0;
 }
+/* end slider section*/
 
+/*service section*/
 .service_section {
   position: relative;
 }
@@ -474,7 +476,9 @@ a:focus {
 .service_section .box .detail-box a:hover {
   color: #0a97b0;
 }
+/*end service section*/
 
+/*about us section*/
 .about_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -536,7 +540,9 @@ a:focus {
 .about_section .detail-box a:hover {
   background-color: #065968;
 }
+/*end about us section*/
 
+/*cotizaciones section*/
 .track_section {
   position: relative;
   color: #ffffff;
@@ -636,98 +642,112 @@ a:focus {
 .track_section form button:hover {
   background-color: #065968;
 }
+/*end cotizaciones*/
 
-.client_section .client_container {
-  width: 75%;
-  margin-top: 45px;
-}
-
-.client_section .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-right: 5px;
-}
-
-.client_section .box .detail-box {
-  border: 1px solid #dddddd;
-  padding: 25px;
-  margin-bottom: 25px;
-}
-
-.client_section .box .client_id {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.client_section .box .client_id .img-box {
+/*pricing section*/
+.pricing-content {
   position: relative;
-  width: 75px;
-  height: 75px;
-}
 
-.client_section .box .client_id .img-box img {
+}
+.pricing_design {
+  position: relative;
+  margin: 0px 15px;
+}
+.pricing_design .single-pricing {
+  background: #0a304d;
+  padding: 60px 40px;
+  border-radius: 30px;
+  box-shadow: 0 10px 40px -10px rgba(0, 64, 128, 0.2);
+  position: relative;
+  z-index: 1;
+}
+.pricing_design .single-pricing:before {
+  content: "";
+  background-color: #fff;
   width: 100%;
-}
-
-.client_section .box .client_id .name {
-  margin-left: 15px;
-}
-
-.client_section .box .client_id .name h6 {
-  color: #23242a;
-  font-size: 18px;
-  margin-bottom: 0;
-}
-
-.client_section .box .client_id .name p {
-  margin-bottom: 0;
-}
-
-.client_section .carousel-wrap {
-  margin: 0 auto;
-  position: relative;
-}
-
-.client_section .owl-carousel .owl-nav .owl-prev,
-.client_section .owl-carousel .owl-nav .owl-next {
-  width: 50px;
-  height: 50px;
-  background-size: 18px;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 18px 18px 190px 18px;
+  border: 1px solid #eee;
   position: absolute;
-  right: -15%;
-  outline: none;
-  background-color: #0a97b0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.price-head {
+}
+.price-head h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 600;
+}
+.price-head h1 {
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.price-head span {
 }
 
-.client_section .owl-carousel .owl-nav .owl-prev:hover,
-.client_section .owl-carousel .owl-nav .owl-next:hover {
-  background-color: #161825;
+.single-pricing ul {
+  list-style: none;
+  margin-top: 30px;
+}
+.single-pricing ul li {
+  line-height: 36px;
+}
+.single-pricing ul li i {
+  background: #0a304d;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+  font-size: 11px;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 6px;
+}
+.pricing-price {
 }
 
-.client_section .owl-carousel .owl-nav .owl-prev {
-  top: 25%;
-  background-image: url(../images/prev.png);
+.price_btn {
+  background: #04233b;
+  padding: 10px 30px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 2px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.price_btn:hover {
+  background: #0aa1d6;
+}
+a {
+  text-decoration: none;
 }
 
-.client_section .owl-carousel .owl-nav .owl-next {
-  top: calc(25% + 65px);
-  background-image: url(../images/next.png);
+.section-title {
+  margin-bottom: 60px;
+}
+.text-center {
+  text-align: center !important;
 }
 
-.contact_section {
+.section-title h2 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 0;
   position: relative;
-  padding-bottom: 90px;
+  text-transform: capitalize;
+}
+/*end pricing section*/
+
+/*contact section*/
+.contact_section {
+  margin-top: 7rem;
+  position: relative;
+  padding-bottom: 7rem;
+  padding-right: 7rem;
 }
 
 .contact_section .heading_container {
@@ -813,7 +833,9 @@ a:focus {
 .contact_section .map_container .map #googleMap {
   height: 100%;
 }
+/*end contact section*/
 
+/*info section*/
 .info_section {
   background-color: #04233b;
   color: #ffffff;
@@ -950,6 +972,7 @@ a:focus {
 .info_section form button:hover {
   background-color: #065968;
 }
+/*enf info section*/
 
 /* footer section*/
 .footer_section {
